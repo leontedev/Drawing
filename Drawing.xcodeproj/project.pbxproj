@@ -13,6 +13,13 @@
 		894665712372BC6E00932E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894665702372BC6E00932E43 /* Assets.xcassets */; };
 		894665742372BC6E00932E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894665732372BC6E00932E43 /* Preview Assets.xcassets */; };
 		894665772372BC6E00932E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894665752372BC6E00932E43 /* LaunchScreen.storyboard */; };
+		8946657F2372C10E00932E43 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946657E2372C10E00932E43 /* FlowerView.swift */; };
+		894665822372C71000932E43 /* CreativeBorders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665812372C71000932E43 /* CreativeBorders.swift */; };
+		894665842372CE1000932E43 /* DrawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665832372CE1000932E43 /* DrawingGroupView.swift */; };
+		894665862372CE9100932E43 /* CustomPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665852372CE9100932E43 /* CustomPathView.swift */; };
+		894665882372CF7100932E43 /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665872372CF7100932E43 /* CustomShapeView.swift */; };
+		8946658A2372CFBC00932E43 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665892372CFBC00932E43 /* ArcView.swift */; };
+		8946658C2372D05D00932E43 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946658B2372D05D00932E43 /* InsettableShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		894665732372BC6E00932E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		894665762372BC6E00932E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894665782372BC6E00932E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8946657E2372C10E00932E43 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		894665812372C71000932E43 /* CreativeBorders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorders.swift; sourceTree = "<group>"; };
+		894665832372CE1000932E43 /* DrawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroupView.swift; sourceTree = "<group>"; };
+		894665852372CE9100932E43 /* CustomPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathView.swift; sourceTree = "<group>"; };
+		894665872372CF7100932E43 /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
+		894665892372CFBC00932E43 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		8946658B2372D05D00932E43 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +70,9 @@
 		894665692372BC6500932E43 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				894665802372C11300932E43 /* Views */,
 				8946656A2372BC6500932E43 /* AppDelegate.swift */,
 				8946656C2372BC6500932E43 /* SceneDelegate.swift */,
-				8946656E2372BC6500932E43 /* ContentView.swift */,
 				894665702372BC6E00932E43 /* Assets.xcassets */,
 				894665752372BC6E00932E43 /* LaunchScreen.storyboard */,
 				894665782372BC6E00932E43 /* Info.plist */,
@@ -73,6 +87,21 @@
 				894665732372BC6E00932E43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		894665802372C11300932E43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8946656E2372BC6500932E43 /* ContentView.swift */,
+				8946657E2372C10E00932E43 /* FlowerView.swift */,
+				894665812372C71000932E43 /* CreativeBorders.swift */,
+				894665832372CE1000932E43 /* DrawingGroupView.swift */,
+				894665852372CE9100932E43 /* CustomPathView.swift */,
+				894665872372CF7100932E43 /* CustomShapeView.swift */,
+				894665892372CFBC00932E43 /* ArcView.swift */,
+				8946658B2372D05D00932E43 /* InsettableShapeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894665822372C71000932E43 /* CreativeBorders.swift in Sources */,
+				894665842372CE1000932E43 /* DrawingGroupView.swift in Sources */,
 				8946656B2372BC6500932E43 /* AppDelegate.swift in Sources */,
+				8946657F2372C10E00932E43 /* FlowerView.swift in Sources */,
+				894665862372CE9100932E43 /* CustomPathView.swift in Sources */,
 				8946656D2372BC6500932E43 /* SceneDelegate.swift in Sources */,
+				8946658A2372CFBC00932E43 /* ArcView.swift in Sources */,
 				8946656F2372BC6500932E43 /* ContentView.swift in Sources */,
+				8946658C2372D05D00932E43 /* InsettableShapeView.swift in Sources */,
+				894665882372CF7100932E43 /* CustomShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
