@@ -46,7 +46,9 @@ struct ContentView_Previews: PreviewProvider {
             DrawingGroupView()
             
             BlendingView()
-            
+            //AnimatingShapes()
+            AnimatablePair()
+            SpirographView()
         }
     }
 }
