@@ -17,7 +17,7 @@ struct ContentView: View {
         
         // MARK: Day 43
         
-        CustomPathView()
+        //CustomPathView()
         //CustomShapeView()
         //ArcView()
         //InsettableShapeView()
@@ -27,6 +27,10 @@ struct ContentView: View {
         //FlowerView()
         //CreativeBorders()
         //DrawingGroupView()
+        
+        // MARK: Day 45
+        
+        BlendingView()
     }
 }
 
@@ -40,6 +44,8 @@ struct ContentView_Previews: PreviewProvider {
             FlowerView()
             CreativeBorders()
             DrawingGroupView()
+            
+            BlendingView()
             
         }
     }

@@ -20,6 +20,10 @@
 		894665882372CF7100932E43 /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665872372CF7100932E43 /* CustomShapeView.swift */; };
 		8946658A2372CFBC00932E43 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665892372CFBC00932E43 /* ArcView.swift */; };
 		8946658C2372D05D00932E43 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946658B2372D05D00932E43 /* InsettableShapeView.swift */; };
+		898B73222374194500E3F73D /* BlendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B73212374194500E3F73D /* BlendingView.swift */; };
+		898B732423741D0600E3F73D /* AnimatingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B732323741D0600E3F73D /* AnimatingShapes.swift */; };
+		898B73262374220000E3F73D /* AnimatablePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B73252374220000E3F73D /* AnimatablePair.swift */; };
+		898B732823744E2300E3F73D /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B732723744E2300E3F73D /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		894665872372CF7100932E43 /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
 		894665892372CFBC00932E43 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		8946658B2372D05D00932E43 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
+		898B73212374194500E3F73D /* BlendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingView.swift; sourceTree = "<group>"; };
+		898B732323741D0600E3F73D /* AnimatingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingShapes.swift; sourceTree = "<group>"; };
+		898B73252374220000E3F73D /* AnimatablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePair.swift; sourceTree = "<group>"; };
+		898B732723744E2300E3F73D /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				894665872372CF7100932E43 /* CustomShapeView.swift */,
 				894665892372CFBC00932E43 /* ArcView.swift */,
 				8946658B2372D05D00932E43 /* InsettableShapeView.swift */,
+				898B73212374194500E3F73D /* BlendingView.swift */,
+				898B732323741D0600E3F73D /* AnimatingShapes.swift */,
+				898B73252374220000E3F73D /* AnimatablePair.swift */,
+				898B732723744E2300E3F73D /* SpirographView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,13 +187,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898B73222374194500E3F73D /* BlendingView.swift in Sources */,
 				894665822372C71000932E43 /* CreativeBorders.swift in Sources */,
 				894665842372CE1000932E43 /* DrawingGroupView.swift in Sources */,
 				8946656B2372BC6500932E43 /* AppDelegate.swift in Sources */,
+				898B73262374220000E3F73D /* AnimatablePair.swift in Sources */,
 				8946657F2372C10E00932E43 /* FlowerView.swift in Sources */,
 				894665862372CE9100932E43 /* CustomPathView.swift in Sources */,
 				8946656D2372BC6500932E43 /* SceneDelegate.swift in Sources */,
 				8946658A2372CFBC00932E43 /* ArcView.swift in Sources */,
+				898B732423741D0600E3F73D /* AnimatingShapes.swift in Sources */,
+				898B732823744E2300E3F73D /* SpirographView.swift in Sources */,
 				8946656F2372BC6500932E43 /* ContentView.swift in Sources */,
 				8946658C2372D05D00932E43 /* InsettableShapeView.swift in Sources */,
 				894665882372CF7100932E43 /* CustomShapeView.swift in Sources */,
