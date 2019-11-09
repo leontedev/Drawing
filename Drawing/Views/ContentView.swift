@@ -16,21 +16,26 @@ struct ContentView: View {
     var body: some View {
         
         // MARK: Day 43
-        
         //CustomPathView()
         //CustomShapeView()
         //ArcView()
         //InsettableShapeView()
         
         // MARK: Day 44
-        
         //FlowerView()
         //CreativeBorders()
         //DrawingGroupView()
         
         // MARK: Day 45
+        //BlendingView()
+        //AnimatingShapes()
+        //AnimatablePair()
+        //SpirographView()
         
-        BlendingView()
+        // MARK: Day 46 - Challenges
+        ArrowView()
+        
+        
     }
 }
 

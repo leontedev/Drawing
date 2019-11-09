@@ -20,6 +20,7 @@
 		894665882372CF7100932E43 /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665872372CF7100932E43 /* CustomShapeView.swift */; };
 		8946658A2372CFBC00932E43 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894665892372CFBC00932E43 /* ArcView.swift */; };
 		8946658C2372D05D00932E43 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946658B2372D05D00932E43 /* InsettableShapeView.swift */; };
+		895642F623756BC800D88506 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895642F523756BC800D88506 /* ArrowView.swift */; };
 		898B73222374194500E3F73D /* BlendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B73212374194500E3F73D /* BlendingView.swift */; };
 		898B732423741D0600E3F73D /* AnimatingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B732323741D0600E3F73D /* AnimatingShapes.swift */; };
 		898B73262374220000E3F73D /* AnimatablePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B73252374220000E3F73D /* AnimatablePair.swift */; };
@@ -42,6 +43,7 @@
 		894665872372CF7100932E43 /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
 		894665892372CFBC00932E43 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		8946658B2372D05D00932E43 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
+		895642F523756BC800D88506 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
 		898B73212374194500E3F73D /* BlendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingView.swift; sourceTree = "<group>"; };
 		898B732323741D0600E3F73D /* AnimatingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingShapes.swift; sourceTree = "<group>"; };
 		898B73252374220000E3F73D /* AnimatablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePair.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				898B732323741D0600E3F73D /* AnimatingShapes.swift */,
 				898B73252374220000E3F73D /* AnimatablePair.swift */,
 				898B732723744E2300E3F73D /* SpirographView.swift */,
+				895642F523756BC800D88506 /* ArrowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				898B73222374194500E3F73D /* BlendingView.swift in Sources */,
 				894665822372C71000932E43 /* CreativeBorders.swift in Sources */,
+				895642F623756BC800D88506 /* ArrowView.swift in Sources */,
 				894665842372CE1000932E43 /* DrawingGroupView.swift in Sources */,
 				8946656B2372BC6500932E43 /* AppDelegate.swift in Sources */,
 				898B73262374220000E3F73D /* AnimatablePair.swift in Sources */,
